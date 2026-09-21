@@ -7,7 +7,6 @@ WSADATA wsa;
 SOCKET client_socket;
 
 
- WSAStartup(MAKEWORD(2,2), &wsa);
  if(WSAStartup(MAKEWORD(2,2), &wsa) !=0){
 printf("WSAStatup falied \n");
 return 1;
