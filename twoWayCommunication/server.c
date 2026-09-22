@@ -13,7 +13,7 @@ int  main(){
             return 1;
 
         }
-        server_socket = SOCKET(AF_INET, SOCK_STREAM,0);
+        server_socket = socket(AF_INET, SOCK_STREAM, 0);
 
         if(server_socket == INVALID_SOCKET){
             printf("socket creation failed !!!\n");
