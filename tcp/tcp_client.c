@@ -6,7 +6,7 @@ int main(){
 WSADATA wsa;
 SOCKET client_socket;
 
-
+int r;
  if(WSAStartup(MAKEWORD(2,2), &wsa) !=0){
 printf("WSAStatup falied \n");
 return 1;
